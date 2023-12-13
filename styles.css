@@ -1,0 +1,473 @@
+/* Basic styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .link{
+    color: blue;
+  }
+
+  nav {
+    background-color: #333;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 200px; /* Adjust the size as needed */
+    height: 28px; /* Adjust the size as needed */
+    margin-right: 10px; /* Add some spacing between the logo and the navigation links */
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color:#7393B3;
+  }
+  
+  /* Parallax effect */
+  .parallax-section {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Add this to your existing styles.css file */
+
+#section1:nth-child(even) {
+  background-color: #e0e0e0; /* Background color for even sections */
+}
+
+#section2:nth-child(odd) {
+  background-color: #7393B3; /* Background color for odd sections */
+}
+
+
+.dark-bg {
+  color:#f4f4f4;
+}
+ 
+  
+  
+  /* Add this to your existing styles.css file */
+
+/* Contact form styles */
+#contact {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  #contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    margin-bottom: 30px;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    gap: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Additional styles for a clean look */
+  body {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  /* Add this to your existing styles.css file */
+
+/* Resume section styles */
+#resume {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  #resume h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #resume p {
+    margin-bottom: 30px;
+  }
+  
+  .resume-download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .resume-download-button:hover {
+    background-color: #555;
+  }
+
+  /* Add this to your existing styles.css file */
+
+/* Home section styles */
+#home {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .home-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover; /* Ensure the image covers the entire container */
+  }
+  
+  .intro-text {
+    text-align: left;
+  }
+  
+  .intro-text h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .intro-text p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  /* Portfolio section styles */
+#portfolio {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .portfolio-item {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .portfolio-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .portfolio-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-item p {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-item a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .portfolio-item a:hover {
+    background-color: #555;
+  }
+
+  /* Add this to your existing styles.css file */
+
+  /* Add this to your existing styles.css file */
+
+/* Blog section styles */
+#blog {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+.blog-header{
+  padding-bottom: 100px;
+}
+
+  .blog-item {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .blog-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .blog-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .blog-item p {
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .blog-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .blog-item a:hover {
+    color: #555;
+  }
+  
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    width: 160px; /* Adjust the size as needed */
+    height: 25px; /* Adjust the size as needed */
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Additional styling for a clean look */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Adjustments for responsiveness */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+    }
+  
+    .footer-links {
+      margin-top: 10px;
+    }
+  }
+  
+  /* Add this to your existing styles.css file */
+
+/* Blog post styles */
+/* Add this to your existing styles.css file */
+
+/* Blog post styles */
+.blog-post {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .blog-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .blog-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .meta-info {
+    color: #555;
+    font-size: 0.8em;
+  }
+  
+  .publish-date {
+    font-weight: bold;
+  }
+  
+  .author {
+    font-style: italic;
+  }
+  
+  /* Photos section styles */
+  .photos-section {
+    margin-bottom: 20px;
+  }
+  
+  .photos-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Blog content styles */
+  .blog-content {
+    line-height: 1.6;
+  margin-bottom: 20px;
+  }
+  
+  /* Back to Main Website link styles */
+  .back-to-main {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+  }
+  
+  .back-to-main a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+    text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  }
+  
+  .back-to-main a:hover {
+    color: #555;
+  }
+  
+  .centerpls {
+    text-align: center;
+  }
+
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .popup label,
+  .popup input,
+  .popup button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .popup button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .popup button:hover {
+    background-color: #2980b9;
+  }
+  
+  .popup .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  /* Center the pop-up form on smaller screens */
+  @media (max-width: 600px) {
+    .popup {
+      width: 90%;
+      max-width: none;
+    }
+  }
+  
